@@ -1,8 +1,5 @@
-# React + Vite
+# Aplicacion TODO para practicar React-Tailwind 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [preview app](https://elegant-gnome-25fb7a.netlify.app/)
+- [FrontedMentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
