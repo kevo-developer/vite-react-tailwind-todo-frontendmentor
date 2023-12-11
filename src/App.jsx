@@ -59,8 +59,7 @@ const App = () => {
     const changeFilter = (filter) => setFilter(filter);
 
     return (
-        <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain bg-gray-200 min-h-screen">
-            {/* Header */}
+        <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain bg-gray-200 min-h-screen dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')]">
             <Header />
 
             <main className="container mx-auto px-4 mt-8">
@@ -81,7 +80,7 @@ const App = () => {
                 filter = {filter}/>
             </main>
 
-            <footer className="text-center mt-8 text-gray-400">
+            <footer className="text-center mt-8 dark:text-gray-400">
                 Drag and Drop to order list
             </footer>
         </div>
